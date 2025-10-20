@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg: 255 255 255;
+  --color-box: 255 255 255;
+  --color-bg-footer: 29 105 17;
+  --color-bg-top-footer: 197 96 1;
+  --box-border: 229 231 235;
+  --box-sd: 226 232 240 / 0.5;
+  --heading-1: 29 105 17;
+  --heading-2: 29 105 17;
+  --heading-3: 29 105 17;
+  --color-text-white: 243 243 243;
+  --color-text-title: 0 61 60;
+  --bg-white-2: 248 250 252;
+
+  --color-white-green: 138 201 154;
+  --color-black-green: 0 61 60;
+}
+
+@layer utilities {
+  .bg-body {
+    background-color: rgb(var(--color-bg));
+  }
+  .bg-box-bg {
+    background-color: rgb(var(--color-box));
+  }
+  .bg-footer {
+    background-color: rgb(var(--color-bg-footer));
+  }
+  .bg-top-footer {
+    background-color: rgb(var(--color-bg-top-footer));
+  }
+  .text-heading-1 {
+    color: rgb(var(--heading-1));
+  }
+  .text-heading-2 {
+    color: rgb(var(--heading-2));
+  }
+  .text-heading-3 {
+    color: rgb(var(--heading-3));
+  }
+  .c-text-white {
+    color: rgb(var(--color-text-white))
+  }
+  .color-title {
+    color: rgb(var(--color-text-title))
+  }
+  .bg-white-2 {
+    background-color: rgb(var(--bg-white-2));
+  }
+  .white-green {
+    background-color: rgb(var(--color-white-green));
+  }
+  .black-green {
+    background-color: rgb(var(--color-black-green));
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color:rgb(248, 250, 252);
+}
