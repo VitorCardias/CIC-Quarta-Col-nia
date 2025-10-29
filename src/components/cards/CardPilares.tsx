@@ -7,8 +7,8 @@ interface CardPilaresProps {
 }
 export const CardPilares = ({titulo, texto, imagem}: CardPilaresProps) => {
     return(
-        <div className="flex flex-col m-auto items-center justify-center w-100 bg-white p-6 rounded-2xl shadow-gray-500 shadow-lg">
-            <img src={imagem} alt={imagem}/>
+        <div className="flex flex-col p-4 w-full max-w-sm md:max-w-none rounded-2xl items-center justify-start gap-4 shadow-lg">
+            <img src={imagem} alt={imagem} className="w-12 h-12 flex-shrink-0"/>
             <Titulo>{titulo}</Titulo>
             <p className="text-center">{texto}</p>
         </div>

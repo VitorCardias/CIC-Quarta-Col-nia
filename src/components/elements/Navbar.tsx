@@ -45,7 +45,12 @@ export const Navbar = () => {
                     {/* Logo */}
                     <div className="min-w-max inline-flex relative">
                         <a href="/" className="relative flex items-center gap-3">
-                            <img src={logo} alt="CIC Quarta Colônia" className="w-32 lg:w-40 h-auto"/>
+                            <img src={logo} alt="CIC Quarta Colônia" 
+                            className={`
+                                w-32 lg:w-40 h-auto
+                                transition-opacity duration-300
+                                ${isScrolled ? 'opacity-100' : 'opacity-0'}
+                            `}/>
                         </a>
                     </div>
 

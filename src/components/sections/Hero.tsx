@@ -5,7 +5,7 @@ export const Hero = () => {
         <section className="relative w-full">
             <img src={imagemInicial} alt="CIC Quarta Colônia" className="w-full"/>
             <div className="absolute inset-0 flex flex-col items-center justify-center 
-                pt-20 px-6 pb-6
+                pt-12 px-6 pb-6
                 sm:pt-40 sm:px-12 sm:pb-12 
                 lg:pt-48 lg:px-24 lg:pb-24 
                 bg-black/30">
