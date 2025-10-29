@@ -86,7 +86,7 @@ export const Navbar = () => {
                             text-gray-800 ${!isScrolled && 'lg:text-white'}
                         `}>
                             {navItems.map((item, key) => (
-                                <NavItem href={item.href} text={item.text} key={key} className={`hover:brightness-200`} listClass={``}/>
+                                <NavItem href={item.href} text={item.text} key={key} className={`hover:brightness-200`}/>
                             ))}
                         </ul>
                     </div>
