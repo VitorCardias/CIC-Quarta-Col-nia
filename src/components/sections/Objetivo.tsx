@@ -10,7 +10,7 @@ import imagem7 from "../../assets/cardFotos/topico07.svg"
 
 export const Objetivo = () => {
     return(
-        <section className="flex flex-col m-auto items-center justify-center w-full py-16 lg:py-24">
+        <section id="objetivo" className="flex flex-col m-auto items-center justify-center w-full py-16 lg:py-24">
             <Titulo className="mb-4 text-center px-4">Nossos Objetivos para a Região</Titulo>
             <p className="max-w-2xl text-center mb-12 lg:mb-16 px-6">Temos um plano de ação claro e focado em resultados tangíveis para o desenvolvimento econômico e social.</p>
             <div className="grid grid-cols-1 justify-items-center md:grid-cols-2 xl:grid-cols-3 gap-8 w-full max-w-7xl mx-auto px-6 lg:px-8">

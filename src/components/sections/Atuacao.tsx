@@ -6,7 +6,7 @@ import desenvolvimento from "../../assets/icons/desenvolvimento.svg"
 
 export const Pilares = () => {
     return(
-        <section className="flex flex-col m-auto bg-white w-full justify-center items-center gap-16 lg:gap-40 px-4 sm:px-6 lg:px-8 py-16 lg:py-0">
+        <section id="atuaçao" className="flex flex-col m-auto bg-white w-full justify-center items-center gap-16 lg:gap-40 px-4 sm:px-6 lg:px-8 py-16 lg:py-0">
             <Titulo className="pt-16 lg:pt-40 text-center">Nossa Atuação em 3 Pilares Fundamentais</Titulo>
             <div className="flex flex-col lg:flex-row gap-10">
                 <CardPilares 

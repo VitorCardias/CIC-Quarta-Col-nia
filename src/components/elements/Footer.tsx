@@ -16,7 +16,7 @@ const navItems = [
 
 export const Footer = () => {
     return (
-        <footer className="z-50 bottom-0 w-full">
+        <footer id="contato" className="z-50 bottom-0 w-full">
             <div className="flex flex-col black-green items-center justify-center py-8 lg:py-6">
                 <div className="w-full black-green mx-auto flex flex-col lg:flex-row justify-center items-center lg:items-start gap-12 lg:gap-24 px-6 py-8 lg:py-16 max-w-7xl">
                     <div className="min-w-max inline-flex relative">

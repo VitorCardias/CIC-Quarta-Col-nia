@@ -10,7 +10,7 @@ const navItems = [
 
 export const Valores = () => {
     return (
-        <section className="flex flex-col m-auto items-center justify-center black-green w-full px-6 py-16 lg:py-24 gap-4">
+        <section id="valores" className="flex flex-col m-auto items-center justify-center black-green w-full px-6 py-16 lg:py-24 gap-4">
             <p className="font-bold c-text-white text-2xl lg:text-3xl text-center">O que nos Move</p>
             <p className="c-text-white text-center max-w-prose">Nossa essência está em unir, fortalecer e desenvolver nossa região de forma sustentável e inovadora.</p>
             <div className="flex flex-col lg:flex-row w-full max-w-6xl justify-center gap-12 lg:gap-16 mt-12 lg:mt-16">
